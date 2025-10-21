@@ -1,8 +1,10 @@
 on:
   schedule:
     # work on every 2 mins
+    # 00, 02, 04, 06, 08, … (every 2 minutes)
     - cron: '*/2 * * * *'
-    # work on every 3 mins
+    # work on every 3 mins, 
+    # 00, 03, 06, 09, 12, … (every 3 minutes)
     - cron: '*/3 * * * *'
 
 jobs:
